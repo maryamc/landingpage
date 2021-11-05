@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import HomeComponent from "../components/home/HomeComponent";
 
-function Home() {
+function home() {
 
     return (
         <div>
@@ -10,4 +10,4 @@ function Home() {
     )
 }
 
-export default Home
+export default home
