@@ -1,4 +1,27 @@
+/* .flex-container{
+    align-content: center;
+} */
 #logoNav{
     width: 100%;
     background-color: rgb(195, 197, 196);
 }
+
+/* #logoNav li p{
+    display: flex;
+  width: 0%;
+  text-align: center;
+  margin: 0 auto;
+   
+} */
+.logo{
+    /* display: flex; */
+    display: inline;
+  width: 15%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+p{
+    line-height: 100%;
+   }
+
