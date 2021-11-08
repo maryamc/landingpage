@@ -4,7 +4,7 @@ import "./footer.css";
 function Footer() {
     return (
         <div id="footer">
-            Excelsior Diagnostic Laboratories © 2021
+            <p>Excelsior Diagnostic Laboratories © 2021</p>  
         </div>
     )
 }

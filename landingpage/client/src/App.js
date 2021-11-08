@@ -1,9 +1,11 @@
 import React from "react";
 import { BrowserRouter, Routes ,Route } from 'react-router-dom';
-import NavBar from "./components/navbar/NavBar";
-import home from "./pages/home"
+import Logo from "./components/logo/logo";
+// import NavBar from "./components/navbar/NavBar";
+import Home from "./pages/home"
 import about from "./pages/about";
 import Footer from "./components/footer/Footer";
+import Jumbotron from "./components/jumbotron/jumbotron";
 
 
 
@@ -13,9 +15,11 @@ function App() {
     <div className="App">
       
         <div>
-          <NavBar />
+          <Logo />
+          <Jumbotron />
+          {/* <NavBar /> */}
           <Routes>
-            <Route exact path="/" component={home}/>
+            <Route exact path="/home" component={Home}/>
             <Route exact path="/about" component={about}/>
           </Routes>
           <Footer />

@@ -14,7 +14,7 @@ function Logo() {
                  </li>
                  <li className="nav-item logo" id="Phone"> 
                  <p>
-                     <PhoneIcon/> 732-422-7358
+                     <PhoneIcon/> Tel: 732-422-7358
                  </p>
                  </li>
                 </ul>

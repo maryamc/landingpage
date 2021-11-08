@@ -1,4 +1,4 @@
-#homePageDiv {
+/* #homePageDiv {
     margin-top: 78px;
 }
 .welcomeSection {
@@ -15,4 +15,8 @@
     padding: 0px 80px;
     width: 50%;
     height: 100%;
+} */
+
+.hello{
+    font-size: 100px;
 }
