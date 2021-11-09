@@ -1,7 +1,6 @@
 require("dotenv").config();
 const express = require("express");
 const path = require("path");
-// const mongoose = require("mongoose");
 
 //requiring ports
 const PORT = process.env.PORT || 3001;
@@ -16,15 +15,6 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
-// Connect to the Mongo DB
-
-// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/user", 
-//   {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true, 
-//     useCreateIndex: true, 
-//     useFindAndModify: false
-//   });
 
 // Use apiRoutes
 app.use(apiRoutes);
