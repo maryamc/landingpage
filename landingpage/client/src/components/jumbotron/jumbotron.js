@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import EDL from "../../edl2.png";
+import EDL from "../../edl3.png";
 import { Link } from "react-router-dom";
 
 
@@ -11,9 +11,6 @@ function Jumbotron() {
             <div className="jumbotron text-center">
                 <div className="card logoCard" style={{ border: "none" }}>
                     <img src={EDL} alt="edl" />
-                    <h1 className="container title">
-                        Excelsior Diagnostic Laboratories
-                    </h1>
                 </div>
 
             </div>
