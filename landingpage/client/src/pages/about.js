@@ -1,7 +1,7 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import AboutComponent from "../components/about/AboutComponent";
 
-function about() {
+function About() {
 
     return (
         <div>
@@ -10,4 +10,4 @@ function about() {
     )
 }
 
-export default about
+export default About
