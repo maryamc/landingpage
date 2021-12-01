@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(214, 216, 215);
+}
+
+.contactCard{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.bodyCard{
+    background-color: rgb(127, 216, 171);
+    border-radius: 20px;
+}
+
+.inputLine{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 15px;
+
+}

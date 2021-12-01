@@ -7,7 +7,7 @@ import { Carousel } from 'react-bootstrap'
 
 function HomeComponent() {
     return (
-        <div>
+        <div className="homeDiv">
             <div className="container">
                 <Carousel fade>
                     <Carousel.Item>

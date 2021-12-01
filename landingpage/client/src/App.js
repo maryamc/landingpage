@@ -6,6 +6,7 @@ import Home from "./pages/home";
 import About from "./pages/about"
 import Footer from "./components/footer/Footer"
 import Jumbotron from "./components/jumbotron/jumbotron"
+import Contact from "./pages/contact";
 
 
 
@@ -20,6 +21,7 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Home />}/>
             <Route exact patch="/About" element={<About />} />
+            <Route exact path="/Contact" element={<Contact />}/>
           </Routes>
           <Footer />
         </div>

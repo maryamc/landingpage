@@ -16,7 +16,9 @@
     width: 50%;
     height: 100%;
 } */
-
+.homeDiv{
+    background-color: rgb(214, 216, 215);
+}
 .hello{
     font-size: 20px;
 }
