@@ -3,7 +3,15 @@ import "./home.css";
 import Pipette from "../../pipette.png";
 import Blood from "../../bloodpath.jpeg";
 import Covid from "../../covid2.jpeg";
-import { Carousel } from 'react-bootstrap'
+
+import { Carousel } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
+import CheckCircleTwoToneIcon from '@mui/icons-material/CheckCircleTwoTone';
+import AccountCircleTwoToneIcon from '@mui/icons-material/AccountCircleTwoTone';
+import RecommendTwoToneIcon from '@mui/icons-material/RecommendTwoTone';
+import { Link } from "@mui/material";
 
 function HomeComponent() {
     return (
@@ -46,6 +54,70 @@ function HomeComponent() {
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
+                <br />
+                <div>
+
+                    <Row xs={1} md={3} className="g-4">
+                        <Col>
+                            <Card className="card infoCard border-0">
+                                <Card.ImgOverlay>
+                                    <Card.Title>
+                                        <h1>
+                                            <CheckCircleTwoToneIcon style={{ fill: "green", fontSize: "120px" }}></CheckCircleTwoToneIcon>
+                                        </h1>
+                                        <p className="underIcon">
+                                            Accurate Results In 12-24 Hours
+                                        </p>
+                                    </Card.Title>
+                                    <Card.Body>
+                                        <p className="underTitle"><Link>
+                                            Read More </Link>
+                                        </p>
+                                    </Card.Body>
+                                </Card.ImgOverlay>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card className="card infoCard border-0">
+                                <Card.ImgOverlay>
+                                    <Card.Title>
+                                        <h1>
+                                            <AccountCircleTwoToneIcon style={{ fill: "green", fontSize: "120px" }}></AccountCircleTwoToneIcon>
+                                        </h1>
+                                        <p className="underIcon">
+                                            Patient Comes First
+                                        </p>
+                                    </Card.Title>
+                                    <Card.Body>
+                                        <p className="underTitle"><Link>
+                                            Read More </Link>
+                                        </p>
+                                    </Card.Body>
+                                </Card.ImgOverlay>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card className="card infoCard border-0">
+                                <Card.ImgOverlay>
+                                    <Card.Title>
+                                        <h1>
+                                            <RecommendTwoToneIcon style={{ fill: "green", fontSize: "120px" }}></RecommendTwoToneIcon>
+                                        </h1>
+                                        <p className="underIcon">
+                                           Health Plans We Accept
+                                        </p>
+                                    </Card.Title>
+                                    <Card.Body>
+                                        <p className="underTitle"><Link>
+                                            Read More </Link>
+                                        </p>
+                                    </Card.Body>
+                                </Card.ImgOverlay>
+                            </Card>
+                        </Col>
+
+                    </Row>
+                </div>
 
                 <div className="container second">
                     <p className="hello">

@@ -50,3 +50,20 @@ img{
   font-size: 20px;
   color: black;
 }
+
+h1{
+  text-align: center;
+}
+
+.inputLine{
+  width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border-radius: 15px;
+
+} 
+
+.contactCard{
+  padding: 50px;
+}
